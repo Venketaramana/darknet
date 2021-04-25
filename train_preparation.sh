@@ -16,13 +16,11 @@ pip3 install --user gdown > /dev/null
 if [[ ! -f darknet/yolov4.conv.137 ]]; then
   pushd darknet > /dev/null
   #echo "** Download pre-trained yolov4 weights"
-  #python3 -m gdown.cli https://drive.google.com/uc?id=1JKF-bdIklxOOVy-2Cr5qdvjgGpmGfcbp
-  #echo "** Download pre-trained yolov4_tiny weights"
-  #python3 -m gdown.cli https://drive.google.com/uc?id=1YZVo5wugrLs-ArtmbkvHUyXnwnADrkbH
-  #echo "** Download pre-trained yolov4_csp weights"
-  #python3 -m gdown.cli https://drive.google.com/uc?id=1NQwz47cW0NUgy7L3_xOKaNEfLoQuq3EL
-  echo "** Download pre-trained yolov4-csp.conv.142
-  python3 -m gdown.cli https://drive.google.com/uc?id=1tgBzP_Ao_kVbJ8E2P7ltn8Oyhnei2HD9
+  #python3 -m gdown.cli https://drive.google.com/uc?id=1BMLTVMYQL3hpbW6Mf7WCowS7sTOEB9rJ
+  #echo "** Download pre-trained yolov4-tiny weights"
+  #python3 -m gdown.cli https://drive.google.com/uc?id=18z6ssnlWAgUbkgtAEO8DfDEiMlgLNIa3
+  echo "** Download pre-trained yolov4-csp weights
+  python3 -m gdown.cli https://drive.google.com/uc?id=1kHmyzG33Wp3_RSJ2gD_wu-_fa1kQJ1Gt
   popd > /dev/null
 fi
 echo "** Done."
